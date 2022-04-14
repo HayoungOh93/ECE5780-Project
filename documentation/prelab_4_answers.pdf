@@ -1,0 +1,19 @@
+1.
+ What is the difference between a parallel and serial interface?
+ a: serial sends data in sequence one packet at a time, parallel can send multiple packets on different wires and assembly is done on the other side.
+2.
+ What is the difference between a synchronous and asynchronous interface?
+ a: Synchronous is synchronized with the sending device using a shared clock. Asynchronous doesn't provide a sync clock and instead it is expected that both devices are using an internal clock that makes communication possible.
+3.
+ What is one thing that a communication protocol does?
+ a: define how raw bits and bytes are interpreted, what the data rate should be, etc.
+4.
+ What does the baud rate of a signal mean?
+ a: The rate at which data is being sent so that the receiving side can set an internal clock to synchronize.
+5.
+ What register in the USART would you use to enable the transmitter hardware?
+    a: USART CTRL Registers
+6.
+ Does the transmit (TX) line of the USB-USART cable connect to the transmit (TX) or receive
+(RX) of the STM32F0?
+    a: RX

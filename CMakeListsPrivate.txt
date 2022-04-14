@@ -1,0 +1,78 @@
+# !!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE
+# https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+#
+# If you need to override existing CMake configuration or add extra,
+# please create `CMakeListsUser.txt` in the root of project.
+# The `CMakeListsUser.txt` will not be overwritten by PlatformIO.
+
+
+
+set(CMAKE_CONFIGURATION_TYPES "disco_f072rb" CACHE STRING "Build Types reflect PlatformIO Environments" FORCE)
+
+# Convert "Home Directory" that may contain unescaped backslashes on Windows
+
+set(CLION_SVD_FILE_PATH "$ENV{HOME}/.platformio/platforms/ststm32/misc/svd/STM32F072x.svd" CACHE FILEPATH "Peripheral Registers Definitions File" FORCE)
+
+SET(CMAKE_C_COMPILER "$ENV{HOME}/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc")
+SET(CMAKE_CXX_COMPILER "$ENV{HOME}/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++")
+SET(CMAKE_CXX_FLAGS "-fno-rtti -fno-exceptions -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m0 -nostdlib")
+SET(CMAKE_C_FLAGS "-Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m0 -nostdlib")
+
+
+if (CMAKE_BUILD_TYPE MATCHES "disco_f072rb")
+    add_definitions(-DPLATFORMIO=50204)
+    add_definitions(-DSTM32F072xB)
+    add_definitions(-DUSE_HAL_DRIVER)
+    add_definitions(-DF_CPU=48000000L)
+
+    include_directories("${CMAKE_CURRENT_LIST_DIR}/Inc")
+    include_directories("${CMAKE_CURRENT_LIST_DIR}/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Include")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Device/ST/STM32F0xx/Include")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/DSP/Include")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/l3gd20")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/hx8347d")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/stlm75")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/spfd5408")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/st7735")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/Common")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/i3g4250d")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Adafruit_Shield")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Utilities/CPU")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Utilities/Log")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Utilities/Fonts")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc")
+    include_directories("$ENV{HOME}/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src")
+    include_directories("$ENV{HOME}/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1")
+    include_directories("$ENV{HOME}/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi")
+    include_directories("$ENV{HOME}/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include")
+    include_directories("$ENV{HOME}/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed")
+    include_directories("$ENV{HOME}/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include")
+
+    FILE(GLOB_RECURSE EXTRA_LIB_SOURCES
+        ${CMAKE_CURRENT_LIST_DIR}/.pio/libdeps/disco_f072rb/*.*
+    )
+endif()
+
+
+FILE(GLOB_RECURSE SRC_LIST
+    ${CMAKE_CURRENT_LIST_DIR}/Src/*.*
+    ${CMAKE_CURRENT_LIST_DIR}/lib/*.*
+    ${CMAKE_CURRENT_LIST_DIR}/test/*.*
+)
+
+list(APPEND SRC_LIST ${EXTRA_LIB_SOURCES})

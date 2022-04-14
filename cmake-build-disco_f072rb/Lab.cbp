@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=50204"/>
+					<Add option="-DSTM32F072xB"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DF_CPU=48000000L"/>
+					<Add directory="/Users/hibba/Documents/ECE5780/Lab/Inc"/>
+					<Add directory="/Users/hibba/Documents/ECE5780/Lab/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/DSP/Include"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/l3gd20"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/hx8347d"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/stlm75"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/spfd5408"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/st7735"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/Common"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/i3g4250d"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Adafruit_Shield"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Utilities/CPU"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Utilities/Log"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Utilities/Fonts"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=50204"/>
+					<Add option="-DSTM32F072xB"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DF_CPU=48000000L"/>
+					<Add directory="/Users/hibba/Documents/ECE5780/Lab/Inc"/>
+					<Add directory="/Users/hibba/Documents/ECE5780/Lab/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/DSP/Include"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/l3gd20"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/hx8347d"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/stlm75"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/spfd5408"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/st7735"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/Common"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/i3g4250d"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Adafruit_Shield"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Utilities/CPU"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Utilities/Log"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Utilities/Fonts"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc"/>
+					<Add directory="/Users/hibba/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="/Users/hibba/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hibba/Documents/ECE5780/Lab/cmake-build-disco_f072rb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/gpio.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/i2c.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/main.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/spi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/stm32f0xx_hal_msp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/stm32f0xx_it.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/tsc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/Src/usb.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hibba/Documents/ECE5780/Lab/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
