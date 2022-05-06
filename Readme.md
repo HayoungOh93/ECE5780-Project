@@ -23,5 +23,7 @@ Recently, large-scale facilities with a large floating population as well as che
 ### Hardware Configuration
 Refer to the following diagram on connecting the hardware together.
 
+![alt text](https://github.com/HayoungOh93/ECE5780-Project/blob/main/hardware-config.png?raw=true)
+
 
 
